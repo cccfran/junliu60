@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-10T14:10:59-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jun Liu 60</title><entry><title type="html">Helium Jekyll Theme Markdown Examples</title><link href="http://localhost:4000/docs/2017/10/08/helium-jekyll-theme-markdown-examples" rel="alternate" type="text/html" title="Helium Jekyll Theme Markdown Examples" /><published>2017-10-08T00:00:00-04:00</published><updated>2017-10-08T00:00:00-04:00</updated><id>http://localhost:4000/docs/2017/10/08/helium-jekyll-theme-markdown-examples</id><content type="html" xml:base="http://localhost:4000/docs/2017/10/08/helium-jekyll-theme-markdown-examples"><![CDATA[<p>Markdown samples usefull when you start write your blog 🎉 🎆.</p>
+
+<!--more-->
+
+<h1 id="examples">Examples</h1>
+
+<h4 class="sub-title" id="in-markdown-cannot-guarantee-it-work-well">in markdown cannot guarantee it work well</h4>
+
+<p class="bg-danger">Test paragraph with <strong>bg-danger</strong> custom class.</p>
+
+<p class="bg-success">Test paragraph with <strong>bg-success</strong> custom class.</p>
+
+<p class="bg-info">Test paragraph with <strong>bg-info</strong> custom class.</p>
+
+<p class="bg-warning">Test paragraph with <strong>bg-warning</strong> custom class.</p>
+
+<hr class="sub-title" />
+<h4 id="in-markdown">in markdown</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.bg-danger}
+Test paragraph with **bg-danger** custom class.
+
+{:.bg-success}
+Test paragraph with **bg-success** custom class.
+
+{:.bg-info}
+Test paragraph with **bg-info** custom class.
+
+{:.bg-warning}
+Test paragraph with **bg-warning** custom class.
+
+</code></pre></div></div>
+<hr />
+
+<p><strong>Test Bold</strong></p>
+
+<p><em>Test coursive</em></p>
+
+<p>A divider: <code class="highlighter-rouge">----</code></p>
+
+<hr />
+
+<p>This is **not** in bold.</p>
+
+<ul>
+  <li>This</li>
+  <li>is</li>
+  <li>a list</li>
+</ul>
+
+<blockquote>
+  <p>This is quoted</p>
+</blockquote>
+
+<ol>
+  <li>with</li>
+  <li>numbers</li>
+</ol>
+
+<p><a href="https://antoniotrento.github.io">This is a link</a></p>
+
+<hr />
+
+<p><strong>Default</strong>. Text paragraph basic color</p>
+
+<p class="text-primary"><strong>.text-primary</strong>: Text paragraph using Primary color</p>
+
+<p class="text-success"><strong>.text-success</strong>: Text paragraph using Success color</p>
+
+<p class="text-info"><strong>.text-info</strong>: Text paragraph using Info Color</p>
+
+<p class="text-warning"><strong>.text-warning</strong>: Text paragraph using Warning color</p>
+
+<p class="text-danger"><strong>.text-danger</strong>: Text paragraph using Danger color</p>
+
+<hr />
+
+<h1 id="heading-h1">Heading h1</h1>
+<h2 id="heading-h2">Heading h2</h2>
+<h3 id="heading-h3">Heading h3</h3>
+<h4 id="heading-h4">Heading h4</h4>
+<h5 id="heading-h5">Heading h5</h5>
+<h6 id="heading-h6">Heading h6</h6>
+
+<h4 class="sub-title" id="subtitle-h-class-using-sub-title">Subtitle h class using <code class="highlighter-rouge">{:.sub-title}</code></h4>
+
+<hr />
+<h1 id="video">Video</h1>
+
+<h4 class="sub-title" id="not-in-markdown">Not in markdown</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Po16lsLfpMk" frameborder="0" allowfullscreen=""></iframe>
+
+<hr class="sub-title" />
+<h4 id="in-html">in HTML</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Po16lsLfpMk" 
+frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre></div></div>
+<hr />
+<h2 id="paragraphs">Paragraphs</h2>
+
+<p class="lead text-sm"><strong>A large paragraph</strong> using <code class="highlighter-rouge">{:.lead}</code>: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+<strong>Regular Paragraph</strong>: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+<p class="text-xs"><strong>Small Paragraph</strong> using <code class="highlighter-rouge">{:.text-sm}</code>: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+<p><strong>Extra Small Paragraph</strong> using <code class="highlighter-rouge">{:.text-xs}</code>: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+
+<hr />
+
+<h1 id="alerts">Alerts</h1>
+
+<h4 class="sub-title" id="in-markdown-cannot-guarantee-it-work-well-1">in markdown cannot guarantee it work well</h4>
+
+<p>If are you looking to html version explore <a href="/labels-alerts">Labels Alerts</a> and <a href="/components">Components</a></p>
+
+<p class="massage-box alert-success"><strong>Test Message alert success</strong> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.</p>
+
+<p class="massage-box alert-info"><strong>Test Message alert info</strong> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.</p>
+
+<p class="massage-box alert-danger"><strong>Test Message alert danger</strong> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.</p>
+
+<p class="massage-box alert-warning"><strong>Test Message alert warning</strong> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.</p>
+
+<hr />
+
+<h4 class="sub-title" id="in-markdown-1">in markdown</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.massage-box .alert-success}
+**Test Message alert success** 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
+
+{:.massage-box .alert-info}
+**Test Message alert info** 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
+
+{:.massage-box .alert-danger}
+**Test Message alert danger** 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
+
+{:.massage-box .alert-warning}
+**Test Message alert warning** 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
+</code></pre></div></div>
+<hr />
+
+<h1 id="labels">Labels</h1>
+
+<h4 class="sub-title" id="in-markdown-cannot-guarantee-it-work-well-2">in markdown cannot guarantee it work well</h4>
+
+<p class="label label-default-filled">Default</p>
+
+<p class="label label-success-filled">Success</p>
+
+<p class="label label-info-filled">Info</p>
+
+<p class="label label-warning-filled">Warning</p>
+
+<p class="label label-danger-filled">Danger</p>
+
+<hr />
+
+<h4 class="sub-title" id="in-markdown-2">in markdown</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.label .label-default-filled}
+Default
+
+{:.label .label-success-filled}
+Success
+
+{:.label .label-info-filled}
+Info
+
+{:.label .label-warning-filled}
+Warning
+
+{:.label .label-danger-filled} 
+Danger
+</code></pre></div></div>
+<hr />
+
+<h1 id="class-nesting-samples">Class nesting samples</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*   list item
+
+*   list item {.classA}
+    {.classB}
+{.classC}
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">{.some-class .proposed-syntax}</code>
+A paragraph of text.</p>
+
+<p>vs</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p class="some-class" markdown="1"&gt;
+  A paragraph of text.
+&lt;/p&gt;
+</code></pre></div></div>
+<h2 id="tables">Tables</h2>
+
+<p>When you compare the code for tables, the ability to add a class via markdown attributes makes a world of difference:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Some</th>
+      <th>Basic</th>
+      <th>Table</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <td>d</td>
+      <td>e</td>
+      <td>f</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 class="sub-title" id="in-markdown-3">in markdown</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{.table .table-striped}
+Some | Basic | Table 
+-----|-------|------
+a    | b     | c
+d    | e     | f
+</code></pre></div></div>
+
+<hr />
+<h1 id="dynamic-ads-block">Dynamic ADS Block</h1>
+
+<h4 class="sub-title" id="it-autoresize-in-base-of-the-container-dimensions-avaible-if-you-edit-_confiyaml-file">It autoresize in base of the container dimensions, avaible if you edit _confi.yaml file</h4>
+
+<div>
+<!-- ************************** ADS BLOCK ***************************** -->
+					
+</div>
+
+<hr />
+
+<h4 class="sub-title" id="in-html-and-liquid">in HTML and liquid</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div&gt;
+</code></pre></div></div>
+<p>{% include ads-block.html %}</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div&gt;
+</code></pre></div></div>
+<hr />
+
+<h1 class="sub-title" id="copy-sample">Copy Sample</h1>
+
+<h1 id="a-study-in-scarlet">A Study In Scarlet</h1>
+
+<h2 id="part-i">PART I.</h2>
+
+<p>(Being a reprint from the reminiscences of John H. Watson, M.D., late of the Army 
+Medical Department.)</p>
+
+<ol>
+  <li>
+    <h3 id="mr-sherlock-holmes">Mr. Sherlock Holmes</h3>
+
+    <p>In the year 1878 I took my degree of Doctor of Medicine of the 
+University of London, and proceeded to Netley to go through 
+the course prescribed for surgeons in the army. Having completed 
+my studies there, I was duly attached to the Fifth Northumberland 
+Fusiliers as Assistant Surgeon. The regiment was stationed in 
+India at the time, and before I could join it, the second […]</p>
+
+    <p>The campaign brought honours and promotion to many, but for me 
+it had nothing but misfortune and disaster. I was removed from my 
+brigade and attached to the Berkshires, with whom I served at 
+the fatal battle of Maiwand. There I was struck on the […]            {.randomClass}</p>
+  </li>
+  <li>
+    <h3 id="more-content">More content</h3>
+
+    <p>Worn with pain, and weak from the prolonged hardships which 
+I had undergone, I was removed, with a great train of wounded 
+sufferers, to the base hospital at Peshawar. Here I rallied, and had 
+already improved so far as to be able to walk about the […]
+p.s. I tend to agree on the adding classes/IDs to every possible element to be overkill.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h4 class="sub-title" id="in-markdown-4">in markdown</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A Study In Scarlet
+
+## PART I.
+
+(Being a reprint from the reminiscences of John H. Watson, M.D., late of the Army 
+Medical Department.)
+
+1.  ### Mr. Sherlock Holmes
+
+    In the year 1878 I took my degree of Doctor of Medicine of the 
+    University of London, and proceeded to Netley to go through 
+    the course prescribed for surgeons in the army. Having completed 
+    my studies there, I was duly attached to the Fifth Northumberland 
+    Fusiliers as Assistant Surgeon. The regiment was stationed in 
+    India at the time, and before I could join it, the second [...]
+
+    The campaign brought honours and promotion to many, but for me 
+    it had nothing but misfortune and disaster. I was removed from my 
+    brigade and attached to the Berkshires, with whom I served at 
+    the fatal battle of Maiwand. There I was struck on the [...]            {.randomClass}
+
+2.  ### More content
+
+    Worn with pain, and weak from the prolonged hardships which 
+    I had undergone, I was removed, with a great train of wounded 
+    sufferers, to the base hospital at Peshawar. Here I rallied, and had 
+    already improved so far as to be able to walk about the [...]
+p.s. I tend to agree on the adding classes/IDs to every possible element to be overkill.
+
+</code></pre></div></div>
+
+<hr />
+<h3 id="other-features">Other features</h3>
+<hr />
+
+<h1 id="lists-uneder-construction">Lists (Uneder construction)</h1>
+
+<ol>
+  <li>Red one</li>
+  <li>Green two</li>
+  <li>Blue three</li>
+</ol>
+
+<ul>
+  <li>
+    <p>A list item.</p>
+
+    <p>With multiple paragraphs.</p>
+  </li>
+  <li>
+    <p>Another item in the list.</p>
+  </li>
+</ul>
+
+<h1 id="links">LINKS</h1>
+
+<p>Markdown supports two styles for creating links: inline and reference. With both styles, you use square brackets to delimit the text you want to turn into a link.</p>
+
+<p>Inline-style links use parentheses immediately after the link text. For example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is an [example link](https://example.com/).
+Output:
+
+&lt;p&gt;This is an &lt;a href="https://example.com/"&gt;
+example link&lt;/a&gt;.&lt;/p&gt;
+</code></pre></div></div>
+<p>Optionally, you may include a title attribute in the parentheses:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is an [example link](https://example.com/ "With a Title").
+</code></pre></div></div>
+<p>Output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;This is an &lt;a href="https://example.com/" title="With a Title"&gt;
+example link&lt;/a&gt;.&lt;/p&gt;
+</code></pre></div></div>
+
+<p>Reference-style links allow you to refer to your links by names, which you define elsewhere in your document:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: https://google.com/        "Google"
+[2]: https://search.yahoo.com/  "Yahoo Search"
+[3]: https://search.msn.com/    "MSN Search"
+</code></pre></div></div>
+<p>Output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;I get 10 times more traffic from &lt;a href="https://google.com/"
+title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="https://search.yahoo.com/"
+title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="https://search.msn.com/"
+title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+</code></pre></div></div>
+
+<p>The title attribute is optional. Link names may contain letters, numbers and spaces, but are not case sensitive:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I start my morning with a cup of coffee and
+[The New York Times][NY Times].
+
+[ny times]: https://www.nytimes.com
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;I start my morning with a cup of coffee and
+&lt;a href="https://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+</code></pre></div></div>
+
+<h1 id="images">IMAGES</h1>
+
+<p>Image syntax is very much like link syntax.</p>
+
+<p>Inline (titles are optional):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![alt text](/path/to/img.jpg "Title")
+</code></pre></div></div>
+
+<p>Reference-style:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![alt text][id]
+
+[id]: /path/to/img.jpg "Title"
+</code></pre></div></div>
+
+<p>Both of the above examples produce the same output:</p>
+
+<p><code class="highlighter-rouge">&lt;img src="/path/to/img.jpg" alt="alt text" title="Title" /&gt;</code></p>
+
+<h1 id="code">CODE</h1>
+
+<p>In a regular paragraph, you can create code span by wrapping text in backtick quotes. Any ampersands (&amp;) and angle brackets (&lt; or &gt;) will automatically be translated into HTML entities. This makes it easy to use Markdown to write about HTML example code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I strongly recommend against using any `&lt;blink&gt;` tags.
+
+
+I wish SmartyPants used named entities like `&amp;mdash;`
+instead of decimal-encoded entites like `&amp;#8212;`.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;I strongly recommend against using any
+&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;p&gt;I wish SmartyPants used named entities like
+&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded
+entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;
+To specify an entire block of pre-formatted code, indent every line of the block by 4 spaces or 1 tab. Just like with code spans, &amp;, &lt;, and &gt; characters will be escaped automatically.
+</code></pre></div></div>
+<h1 id="markdown">Markdown:</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+    &lt;blockquote&gt;
+        &lt;p&gt;For example.&lt;/p&gt;
+    &lt;/blockquote&gt;
+</code></pre></div></div>
+<p>Output:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;
+    &amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre></div></div>]]></content><author><name>Antonio Trento</name></author><category term="docs" /><category term="jekyll" /><category term="code" /><category term="markdown" /><summary type="html"><![CDATA[Markdown samples usefull when you start write your blog 🎉 🎆.]]></summary></entry><entry><title type="html">Make Your Jekyll Website Amazing</title><link href="http://localhost:4000/lessons/2017/03/20/make-your-jekyll-website-amazing" rel="alternate" type="text/html" title="Make Your Jekyll Website Amazing" /><published>2017-03-20T00:00:00-04:00</published><updated>2017-03-20T00:00:00-04:00</updated><id>http://localhost:4000/lessons/2017/03/20/make-your-jekyll-website-amazing</id><content type="html" xml:base="http://localhost:4000/lessons/2017/03/20/make-your-jekyll-website-amazing"><![CDATA[<p>Jekyll can give you the possibility to make awesome websites in minutes.
+<!--more-->
+That are <strong>more faster than major other sites in the world</strong></p>
+
+<h2 id="how-you-can-make-an-amazing-website">How you can make an Amazing Website?</h2>
+
+<p>Use this template to generate a great jekyll website via a full of slide system make by fullpage.js and build quick your pages using the last version of Bootstrap 4.</p>]]></content><author><name>Antonio Trento</name></author><category term="lessons" /><category term="bootstrap 4" /><category term="web desing" /><category term="jekyll" /><summary type="html"><![CDATA[Jekyll can give you the possibility to make awesome websites in minutes.]]></summary></entry><entry><title type="html">Helium Theme Syntax Highlight Example</title><link href="http://localhost:4000/lessons/2017/02/15/helium-theme-syntax-highlight-example" rel="alternate" type="text/html" title="Helium Theme Syntax Highlight Example" /><published>2017-02-15T00:00:00-05:00</published><updated>2017-02-15T00:00:00-05:00</updated><id>http://localhost:4000/lessons/2017/02/15/helium-theme-syntax-highlight-example</id><content type="html" xml:base="http://localhost:4000/lessons/2017/02/15/helium-theme-syntax-highlight-example"><![CDATA[<p>An example post about code insertion into posts.</p>
+
+<!--more-->
+<h2 id="testing-code-snippet-highlight">Testing code snippet highlight</h2>
+
+<p>The following example shows how to highlight a piece of code throughout the use of Javascript:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript">    <span class="cm">/*jshint browser: true, strict: true, undef: true */</span>
+    <span class="cm">/*global define: false */</span>
+
+    <span class="p">(</span> <span class="kd">function</span><span class="p">(</span> <span class="nb">window</span> <span class="p">)</span> <span class="p">{</span>
+
+    <span class="dl">'</span><span class="s1">use strict</span><span class="dl">'</span><span class="p">;</span>
+
+    <span class="c1">// class helper functions from bonzo https://github.com/ded/bonzo</span>
+
+    <span class="kd">function</span> <span class="nx">classReg</span><span class="p">(</span> <span class="nx">className</span> <span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="k">new</span> <span class="nb">RegExp</span><span class="p">(</span><span class="dl">"</span><span class="s2">(^|</span><span class="se">\\</span><span class="s2">s+)</span><span class="dl">"</span> <span class="o">+</span> <span class="nx">className</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">(</span><span class="se">\\</span><span class="s2">s+|$)</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// classList support for class management</span>
+    <span class="c1">// altho to be fair, the api sucks because it won't accept multiple classes at once</span>
+    <span class="kd">var</span> <span class="nx">hasClass</span><span class="p">,</span> <span class="nx">addClass</span><span class="p">,</span> <span class="nx">removeClass</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span> <span class="dl">'</span><span class="s1">classList</span><span class="dl">'</span> <span class="k">in</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span> <span class="p">)</span> <span class="p">{</span>
+      <span class="nx">hasClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">contains</span><span class="p">(</span> <span class="nx">c</span> <span class="p">);</span>
+      <span class="p">};</span>
+      <span class="nx">addClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span> <span class="nx">c</span> <span class="p">);</span>
+      <span class="p">};</span>
+      <span class="nx">removeClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span> <span class="nx">c</span> <span class="p">);</span>
+      <span class="p">};</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">hasClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">classReg</span><span class="p">(</span> <span class="nx">c</span> <span class="p">).</span><span class="nx">test</span><span class="p">(</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="p">);</span>
+      <span class="p">};</span>
+      <span class="nx">addClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="nx">hasClass</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">)</span> <span class="p">{</span>
+          <span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">c</span><span class="p">;</span>
+        <span class="p">}</span>
+      <span class="p">};</span>
+      <span class="nx">removeClass</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">className</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="nx">classReg</span><span class="p">(</span> <span class="nx">c</span> <span class="p">),</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span> <span class="p">);</span>
+      <span class="p">};</span>
+    <span class="p">}</span>
+
+    <span class="kd">function</span> <span class="nx">toggleClass</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">fn</span> <span class="o">=</span> <span class="nx">hasClass</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">)</span> <span class="p">?</span> <span class="nx">removeClass</span> <span class="p">:</span> <span class="nx">addClass</span><span class="p">;</span>
+      <span class="nx">fn</span><span class="p">(</span> <span class="nx">elem</span><span class="p">,</span> <span class="nx">c</span> <span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="kd">var</span> <span class="nx">classie</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="c1">// full names</span>
+      <span class="na">hasClass</span><span class="p">:</span> <span class="nx">hasClass</span><span class="p">,</span>
+      <span class="na">addClass</span><span class="p">:</span> <span class="nx">addClass</span><span class="p">,</span>
+      <span class="na">removeClass</span><span class="p">:</span> <span class="nx">removeClass</span><span class="p">,</span>
+      <span class="na">toggleClass</span><span class="p">:</span> <span class="nx">toggleClass</span><span class="p">,</span>
+      <span class="c1">// short names</span>
+      <span class="na">has</span><span class="p">:</span> <span class="nx">hasClass</span><span class="p">,</span>
+      <span class="na">add</span><span class="p">:</span> <span class="nx">addClass</span><span class="p">,</span>
+      <span class="na">remove</span><span class="p">:</span> <span class="nx">removeClass</span><span class="p">,</span>
+      <span class="na">toggle</span><span class="p">:</span> <span class="nx">toggleClass</span>
+    <span class="p">};</span>
+
+    <span class="c1">// transport</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">function</span><span class="dl">'</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span> <span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// AMD</span>
+      <span class="nx">define</span><span class="p">(</span> <span class="nx">classie</span> <span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="c1">// browser global</span>
+      <span class="nb">window</span><span class="p">.</span><span class="nx">classie</span> <span class="o">=</span> <span class="nx">classie</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="p">})(</span> <span class="nb">window</span> <span class="p">);</span></code></pre></figure>
+
+<h2 id="code-highlighting-with-rounge-and-prism">Code highlighting with rounge and Prism</h2>
+
+<p>Another snippet rendered with the CSS code syntax:</p>
+
+<pre><code class="language-CSS">    @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic');
+    /* Reset CSS
+     * --------------------------------------- */
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+    form,fieldset,input,textarea,p,blockquote,th,td {
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration:none;
+    }
+    table {
+        border-spacing: 0;
+    }
+    fieldset,img {
+        border: 0;
+    }
+    address,caption,cite,code,dfn,em,strong,th,var {
+        font-weight: normal;
+        font-style: normal;
+    }
+</code></pre>
+<h2 id="using-snippet-rendered-with-the-html-code-syntax">Using snippet rendered with the HTML code syntax</h2>
+
+<pre><code class="language-HTML">
+&lt;div id="fullpage"&gt;
+    &lt;div data-anchor="0section" class="section" id="section0"&gt;
+
+        &lt;h1 class="heavy"&gt;Ready to follow &lt;br /&gt;your &lt;span class="pink"&gt;dreams?&lt;/span&gt;&lt;/h1&gt;
+        &lt;br /&gt;&lt;h2 class="large-blur"&gt;
+            &lt;span class="highlight-container"&gt;&lt;span class="highlight"&gt;
+                Put your dreams on first and follow that!
+            &lt;/span&gt;&lt;/span&gt;
+
+            &lt;br /&gt;
+
+                            
+
+        &lt;/h2&gt;
+            &lt;div class="intro-scroll-down"&gt;
+              &lt;a data-menuanchor="1section" href="#1section"&gt;
+                &lt;span class="mouse"&gt;
+                  &lt;span class="mouse-dot"&gt;&lt;/span&gt;
+                &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+</code></pre>
+
+<p><strong>Check the markdown of this example in order to fully comprehend the correct syntax.</strong></p>
+
+<p><a href="https://github.com/sentenza/sentenza.github.io/issues/1">Here</a> you can find more detailed information.</p>]]></content><author><name>Antonio Trento</name></author><category term="lessons" /><category term="jekyll" /><category term="code" /><summary type="html"><![CDATA[An example post about code insertion into posts.]]></summary></entry><entry><title type="html">Testing Locally Helium Jekyll</title><link href="http://localhost:4000/lessons/2017/01/17/testing-locally-helium-jekyll" rel="alternate" type="text/html" title="Testing Locally Helium Jekyll" /><published>2017-01-17T00:00:00-05:00</published><updated>2017-01-17T00:00:00-05:00</updated><id>http://localhost:4000/lessons/2017/01/17/testing-locally-helium-jekyll</id><content type="html" xml:base="http://localhost:4000/lessons/2017/01/17/testing-locally-helium-jekyll"><![CDATA[<p>In this tutorial I will teach you <em>how to test your Jekyll Bootstrap3</em> site locally.
+<!--more--></p>
+
+<p>Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.</p>
+
+<p>To test your site locally, you’ll need</p>
+
+<ol>
+  <li><a href="https://www.ruby-lang.org/en/">ruby</a></li>
+  <li><a href="https://https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://github.com/github/pages-gem">github-pages</a> gem</li>
+</ol>
+
+<h3 id="installing-ruby">Installing ruby</h3>
+
+<p>There are
+<a href="https://www.ruby-lang.org/en/installation/">lots of different ways to install ruby</a>.</p>
+
+<p>In Mac OS X, older versions of ruby will already be installed.  But I
+use the <a href="https://rvm.io/">Ruby Version Manager (RVM)</a> to have a more
+recent version.  You could also use <a href="https://brew.sh/">Homebrew</a>.</p>
+
+<p>In Windows, use <a href="https://rubyinstaller.org/">RubyInstaller</a>. (In most
+of this tutorial, I’ve assumed you’re using a Mac or some flavor of
+Unix. It’s possible that none of this was usable for Windows
+folks. Sorry!)</p>
+
+<h3 id="installing-the-github-pages-gem">Installing the github-pages gem</h3>
+
+<p>Run the following command:</p>
+<pre><code class="language-HTML">    gem install github-pages
+
+</code></pre>
+<p>This will install the <code class="highlighter-rouge">github-pages</code> gem and all dependencies
+(including <a href="https://jekyllrb.com/">jekyll</a>).</p>
+
+<p>Later, to update the gem, type:</p>
+<pre><code class="language-HTML">    gem update github-pages
+
+</code></pre>
+<h3 id="testing-your-site-locally">Testing your site locally</h3>
+
+<p>To construct and test your site locally, go into the directory and
+type</p>
+<pre><code class="language-HTML">    jekyll build
+
+</code></pre>
+<p>This will create (or modify) a <code class="highlighter-rouge">_site/</code> directory, containing
+everything from <code class="highlighter-rouge">assets/</code>, and then the <code class="highlighter-rouge">index.md</code> and all
+<code class="highlighter-rouge">pages/*.md</code> files, converted to html. (So there’ll be
+<code class="highlighter-rouge">_site/index.html</code> and the various <code class="highlighter-rouge">_site/pages/*.html</code>.)</p>
+
+<p>Type the following in order to “serve” the site.
+This will first run <code class="highlighter-rouge">build</code>, and so it does <em>not</em> need to be
+preceded by <code class="highlighter-rouge">jekyll build</code>.</p>
+<pre><code class="language-HTML">    jekyll serve
+
+</code></pre>
+<p>To make jekyll automatically re-build your changes you can also add the <code class="highlighter-rouge">--watch</code> option:</p>
+<pre><code class="language-HTML">    jekyll serve --watch
+    
+</code></pre>
+<p>Now open your browser and go to <a href="https://localhost:4000">https://localhost:4000</a>.</p>
+
+<p>Read the complete tutorial on <a href="https://jekyllrb.com/docs/usage/">https://jekyllrb.com/docs/usage/</a>.</p>
+
+<h2 id="testing-images">Testing images</h2>
+
+<p><img src="/assets/img/big/lost_in_404_space.jpg" alt="Lost in space" class="image-fluid" /></p>
+
+<hr />
+<h4 id="code">#Code</h4>
+<pre><code class="language-HTML">	
+	![Lost in space](/assets/img/big/lost_in_404_space.jpg){: .image-fluid }
+
+</code></pre>
+
+<h3 id="img-with-description-on-hover">IMG With description on hover</h3>
+
+<p><img src="/assets/img/big/universe1.jpg" alt="Lost in space with description" title="Description of lost in space image" class="image-fluid" /></p>
+
+<hr />
+<h4 id="code-1">#Code</h4>
+<pre><code class="language-HTML">	
+	![Lost in space with description](/assets/img/big/universe1.jpg "Description of lost in space image"){: .image-fluid }
+
+</code></pre>
+
+<h3 id="with-floating-in-markdown">With floating in markdown</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results.</td>
+      <td><img src="/assets/img/big/universe2.jpg" alt="Lost in space with description" title="Description of lost in space image" class="image-fluid" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h4 id="code-2">#Code</h4>
+<pre><code class="language-HTML">
+	| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](/assets/img/big/universe2.jpg "Description of lost in space image"){: .image-fluid } |
+
+
+</code></pre>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/big/universe3.jpg" alt="Lost in space with description" title="Description of lost in space image" class="image-fluid" /></td>
+      <td>I am text to the right I am text to the right I am text to the right I am text to the right</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h4 id="code-3">#Code</h4>
+<pre><code class="language-HTML">
+	| ![Lost in space with description](/assets/img/big/universe3.jpg "Description of lost in space image"){: .image-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
+
+</code></pre>
+
+<h3 id="video-embed-sample">Video embed sample</h3>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+<h4 id="code-4">#Code</h4>
+<pre><code class="language-HTML">	&lt;div class="video-container"&gt;
+	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+
+</code></pre>
+
+<h2 id="license">License</h2>
+
+<p><a href="https://opensource.org/licenses/MIT">MIT</a></p>]]></content><author><name>Antonio Trento</name></author><category term="lessons" /><category term="intro" /><category term="beginner" /><category term="jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[In this tutorial I will teach you how to test your Jekyll Bootstrap3 site locally.]]></summary></entry><entry><title type="html">Hello World</title><link href="http://localhost:4000/lessons/2017/01/01/hello-world" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-01T00:00:00-05:00</published><updated>2017-01-01T00:00:00-05:00</updated><id>http://localhost:4000/lessons/2017/01/01/hello-world</id><content type="html" xml:base="http://localhost:4000/lessons/2017/01/01/hello-world"><![CDATA[<p>Hello world! Is the first post on helium jekyll
+<!--more--></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat luctus neque eget commodo. Sed a molestie lorem. Fusce lectus mauris, vulputate sollicitudin ullamcorper ut, semper at risus. Nunc porta ut velit non fringilla. Pellentesque egestas eros vitae suscipit imperdiet. Cras imperdiet a velit sit amet placerat. Morbi dolor quam, semper ac venenatis ac, pretium at ex. Suspendisse fermentum mi sit amet risus congue ullamcorper. Sed sed ultrices libero. Cras pulvinar dui efficitur felis maximus, ac dictum leo egestas. Pellentesque ut dictum odio. Aliquam varius viverra orci, quis blandit mi blandit vitae. Donec non semper augue, ut consectetur ligula. Aenean tellus tortor, sagittis sed iaculis quis, imperdiet et ex. Mauris id libero sed diam euismod pharetra.</p>
+
+<p>Mauris nec pulvinar elit, in fermentum leo. Curabitur volutpat ullamcorper diam id dapibus. Donec dolor eros, dictum vitae quam sit amet, imperdiet dapibus libero. Nullam vel ligula non velit tincidunt volutpat. Maecenas at magna enim. Nunc quis molestie lectus. Maecenas facilisis finibus consequat.</p>
+
+<p>Curabitur vitae elementum nulla, at cursus elit. Suspendisse elementum auctor lorem eu sodales. Curabitur accumsan efficitur maximus. Ut purus lacus, dapibus ut elit vitae, imperdiet ultrices diam. Donec pharetra quis urna et auctor. Sed non augue vel lacus scelerisque mattis. In ac eros quis felis laoreet luctus vitae eget libero.</p>
+
+<p>Sed egestas lectus urna, et lacinia nulla suscipit nec. Sed sed consequat nulla. Morbi lobortis ex tellus, quis aliquam magna gravida quis. Ut mattis dui nec euismod tempor. Ut sit amet felis tincidunt, ultrices ligula eu, dapibus nulla. Aliquam efficitur magna in elit placerat, vel placerat augue interdum. In hac habitasse platea dictumst. Sed ac mollis lacus. Praesent eleifend justo ut nunc fermentum, eget luctus dui ultricies.</p>
+
+<p>Integer interdum fringilla commodo. Integer finibus purus diam, at gravida metus interdum ac. Curabitur posuere, felis facilisis consectetur convallis, enim nulla ultricies nisi, at pretium sapien lorem ac diam. Integer ac ex consequat, facilisis justo sit amet, auctor quam. Curabitur luctus suscipit ante sed aliquet. Donec non molestie sapien, ut pellentesque odio. In lobortis porta auctor. Sed eu convallis est, eget ultricies ligula. Maecenas facilisis laoreet velit, eget rutrum ligula malesuada in. Vestibulum sapien lacus, congue ut mi ut, faucibus dapibus massa. Morbi vel ligula eget lacus vehicula tincidunt.</p>]]></content><author><name>Antonio Trento</name></author><category term="lessons" /><category term="intro" /><category term="beginner" /><category term="jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[Hello world! Is the first post on helium jekyll]]></summary></entry></feed>

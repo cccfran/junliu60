@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "first": "",
+    "last": "",
+    "time": "8:20-8:40am",
+    "title": "Breakfast"
+  },
+  {
+    "id": 2,
+    "time": "8:45-9:00am",
+    "first": "Jim Berger",
+    "second": "Linda Zhao",
+    "title": "Welcome"
+  },
+  {
+    "id": 3,
+    "time": "Chair<br>9:00-10:30am",
+    "first": "Feng",
+    "last": "Liang",
+    "ins": "University of Illinois"
+  },
+  {
+    "id": 4,
+    "last": "McCulloch",
+    "first": "Robert",
+    "ins": "Arizona State University",
+    "time": "",
+    "title": "Multidimensional Monotonicity Discovery with MBART",
+    "abstract": "For the discovery of a regression relationship between y and x, a vector of p potential predictors, the flexible nonparametric nature of BART (Bayesian Additive Regression Trees) allows for a much richer set of possibilities than restrictive parametric approaches. To exploit the potential monotonicity of the predictors, we propose mBART, a constrained version of BART that incorporates monotonicity with a multivariate basis of monotone trees, thereby avoiding the confines of a full parametric form. Using mBART to estimate such effects yields (i) function estimates that are smoother and more interpretable, (ii) better out-of-sample predictive performance and (iii) less post-data uncertainty. By using mBART to simultaneously estimate both the increasing and the decreasing regions of a predictor, mBART opens up a new approach to the discovery and estimation of the decomposition of a function into its monotone components. "
+  },
+  {
+    "id": 5,
+    "last": "Zhou",
+    "first": "Harrison",
+    "ins": "Yale University",
+    "time": "",
+    "title": "Global Convergence of EM",
+    "abstract": "In this talk I will first review a recent joint work with Yihong Wu. It showed that the randomly initialized EM algorithm for parameter estimation in the symmetric two-component Gaussian mixtures converges to the MLE in at most sqrt(n) iterations with high probability. The work has its limitation: the key “leave-one-coordinate- out” analysis technique there cannot be easily extended to general Gaussian mixtures. In the second part of the talk, I will consider an extension to general Gaussian mixtures by overparameterization, but the progress is still quite preliminary so far."
+  },
+  {
+    "id": 6,
+    "first": "",
+    "last": "",
+    "time": "10:30-11:00am",
+    "title": "Break"
+  },
+  {
+    "id": 7,
+    "time": "Chair<br>11:00am-12:30pm",
+    "first": "Lyle",
+    "last": "Ungar",
+    "ins": "University of Pennsylvania"
+  },
+  {
+    "id": 8,
+    "last": "Diebold",
+    "first": "Frank",
+    "ins": "University of Pennsylvania",
+    "time": "",
+    "title": "On the Aggregation of Probability Assessments: Regularized Mixtures of Predictive Densities",
+    "abstract": "We propose methods for constructing regularized mixtures of density forecasts. We explore a variety of objectives and regularization penalties, and we use them in a substantive exploration of Eurozone inflation and real interest rate density forecasts. All individual inflation forecasters (even the ex post best forecaster) are outperformed by our regularized mixtures. From the Great Recession onward, the optimal regularization tends to move density forecasts’ probability mass from the centers to the tails, correcting for overconfidence."
+  },
+  {
+    "id": 9,
+    "last": "Foster",
+    "first": "Dean",
+    "ins": "Amazon",
+    "time": "",
+    "title": "Calibration, Falsifiability and Macau",
+    "abstract": "A way to show that a forecast is biased is to place bets on whether the residuals are positive or negative. The macau of a forecast is how much it stands to lose when faced with such bets. A low macau forecast is one which never loses very much in these bets. This talk will introduce this concept and show how to create such low macau forecasts. The advantage of low macau forecasts are that they can be trusted in decision making. If you forecast how much you would make when taking one of several actions, you want your forecasts for each arm to be unbiased. If you pick the arm with the highest forecast, and you are using a low macau forecasting procedure, then you will end up making good decisions. In particular, the traditional on-line regret is often bounded by the macau. This allows us to convert many decision problems into forecasting problems."
+  },
+  {
+    "id": 10,
+    "first": "",
+    "last": "",
+    "time": "12:30-1:30pm",
+    "title": "Lunch"
+  },
+  {
+    "id": 11,
+    "time": "Chair<br>1:30-3:00pm",
+    "first": "Dylan",
+    "last": "Small",
+    "ins": "University of Pennsylvania"
+  },
+  {
+    "id": 12,
+    "last": "Donoho",
+    "first": "David",
+    "ins": "Stanford University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 13,
+    "last": "Wasserman",
+    "first": "Larry",
+    "ins": "Carnegie Mellon University",
+    "time": "",
+    "title": "Optimal Transport With Applications to Background Modeling",
+    "abstract": "I will give an introduction to the theory of optimal transport which is a method for constructing mappings between distributions.  Optimal transport has become a popular tool in statistics and machine learning and has many applications. After introducing the basic ideas I will discuss an application to estimating the background distribution for testing for di-Higgs events. <br><br>This is joint work with: Tudor Manole, Patrick Bryant, John Alison and Mikael Kuusela."
+  },
+  {
+    "id": 14,
+    "first": "",
+    "last": "",
+    "time": "3:00-3:30pm",
+    "title": "Break"
+  },
+  {
+    "id": 15,
+    "time": "Chair<br>3:30-5:00pm",
+    "first": "Robert",
+    "last": "Wolpert",
+    "ins": "Duke University"
+  },
+  {
+    "id": 16,
+    "last": "Rockova",
+    "first": "Veronika",
+    "ins": "University of Chicago",
+    "time": "",
+    "title": "TSVS: Thompson Sampling for Variable Selection",
+    "abstract": "Thompson sampling is a heuristic algorithm for the multi-armed bandit problem which has a long tradition in machine learning. The algorithm has a Bayesian spirit in the sense that it selects arms based on posterior samples of reward probabilities of each arm. By forging a connection between combinatorial binary bandits and spike-and-slab variable selection, we propose a stochastic optimization approach to subset selection called Thompson Variable Selection (TVS). TVS is a framework for interpretable machine learning which does not rely on the underlying model to be linear. TVS brings together Bayesian reinforcement and machine learning in order to extend the reach of Bayesian subset selection to non-parametric models and large datasets with very many predictors and/or very many observations. Depending on the choice of a reward, TVS can be deployed in offline as well as online setups with streaming data batches. Tailoring multiplay bandits to variable selection, we provide regret bounds without necessarily assuming that the arm mean rewards be unrelated. We show a very strong empirical performance on both simulated and real data. Unlike deterministic optimization methods for spike-and-slab variable selection, the stochastic nature makes TVS less prone to local convergence and thereby more robust."
+  },
+  {
+    "id": 17,
+    "last": "Airoldi",
+    "first": "Edoardo",
+    "ins": "Temple University",
+    "time": "",
+    "title": "Model-assisted Design of Experiments",
+    "abstract": "Classical design of experiments does not contemplate a role for the likelihood. On the other hand, in many modern settings, including Tech and social media platforms, we want to experiment with systems that have been modeled extensively, and ignoring insights from such models at design stage seems an increasingly unreasonable tenet. In this talk, we will introduce an experimental design strategy that leverages statistical models to restrict the space of randomizations at design stage, while retaining the benefits and guarantees of classical experimental design strategies. In particular, we wish for certain finite-sample properties of the estimates to hold even if the model catastrophically fails, while we would like to gain efficiency if certain aspects of the model are correct. We will contrast design-based, model-based and model-assisted approaches to experimental design from a decision theoretic perspective. We will then illustrate this model-assisted approach to design of experiments in the context of the estimation of causal effects, when interference can be attributed to a network among the units of analysis, within the potential outcomes framework."
+  },
+  {
+    "id": 20,
+    "first": "",
+    "last": "",
+    "time": "8:30-8:55am",
+    "title": "Breakfast"
+  },
+  {
+    "id": 21,
+    "time": "Chair<br>9:00-10:30am",
+    "first": "Sameer",
+    "last": "Deshpande",
+    "ins": "University of Wisconsin-Madison"
+  },
+  {
+    "id": 22,
+    "last": "Reid",
+    "first": "Nancy",
+    "ins": "University of Toronto",
+    "time": "",
+    "title": "Data-Dependent Priors",
+    "abstract": "Some years ago at an OBayes meeting I talked about a version of matching priors that depends on the data. Ed pointed out that empirical Bayes methods use data-dependent priors in a more direct manner, and wondered about any connections. In this talk I’ll consider the similarities and differences in the approaches, informed by recent discussions at the “BFF” set of workshops and recent results of Rousseau and others in assessing the coverage of empirical Bayes posteriors."
+  },
+  {
+    "id": 23,
+    "last": "Strawderman",
+    "first": "Bill",
+    "ins": "Rutgers University",
+    "time": "",
+    "title": "On Minimax Shrinkage Estimation with Variable Selection",
+    "abstract": "We study minimax estimators of the mean vector of a spherically symmetric distribution that also perform variable selection by estimating certain components as 0. The basic class of estimators developed is closely related to, and generalizes, classes considered by Zhou and Hwang [11] and Maruyama [8] in the Gaussian setting. The class  f distributions studied includes scale mixtures of normals (including Normal and Student-t) as well as the general class of spherically symmetric distributions with a residual vector. Certain subclasses of these estimators based on truncated order statistics are shown to be particularly effective when some information on the sparsity is known. Joint work with Stavros Zinonos, Rutgers University"
+  },
+  {
+    "id": 24,
+    "first": "",
+    "last": "",
+    "time": "10:30-11:00am",
+    "title": "Break"
+  },
+  {
+    "id": 25,
+    "time": "Chair<br>11:00am-12:30pm",
+    "first": "Shane",
+    "last": "Jensen",
+    "ins": "University of Pennsylvania"
+  },
+  {
+    "id": 26,
+    "last": "Samworth",
+    "first": "Richard",
+    "ins": "University of Cambridge",
+    "time": "",
+    "title": "Optimal Subgroup Selection",
+    "abstract": "In clinical trials and other applications, we often see regions of the feature space that appear to exhibit interesting behaviour, but it is unclear whether these observed phenomena are reflected at the population level. Focusing on a regression setting, we consider the subgroup selection challenge of identifying a region of the feature space on which the regression function exceeds a pre-determined threshold. We formulate the problem as one of constrained optimisation, where we seek a low-complexity, data-dependent selection set on which, with a guaranteed probability, the regression function is uniformly at least as large as the threshold; subject to this constraint, we would like the region to contain as much mass under the marginal feature distribution as possible. This leads to a natural notion of regret, and our main contribution is to determine the minimax optimal rate for this regret in both the sample size and the Type I error probability. The rate involves a delicate interplay between parameters that control the smoothness of the regression function, as well as exponents that quantify the extent to which the optimal selection set at the population level can be approximated by families of well-behaved subsets. Finally, we expand the scope of our previous results by illustrating how they may be generalised to a treatment and control setting, where interest lies in the heterogeneous treatment effect."
+  },
+  {
+    "id": 27,
+    "last": "Carriquiry",
+    "first": "Alicia",
+    "ins": "Iowa State University",
+    "time": "",
+    "title": "On the Validity of Forensic Pattern Comparison Disciplines",
+    "abstract": "Evidence from a crime scene including fingerprints and firearm markings on bullets is evaluated by examiners by comparing their image to one or more reference images. Typically, the examination is purely visual and results in a categorical conclusion such as “the print was made by the suspect’s finger”. How valid are these conclusions and the methods that lead to them?<br><br>For pattern comparison disciplines, black box studies are considered the ``gold standard’’ for assessing this validity. In this type of study, participants are presented with a series of test kits and are asked to reach a conclusion as they would in real case work. Black box studies have been conducted in multiple forensic disciplines in the last few years, and published results suggest that examiners hardly ever make an error. <br><br>Not so fast!  We argue that none of the forensic black box studies that have been conducted in the past decade permit estimation of error rates, either for the discipline or for individual examiners.  Most of the studies violate basic experimental design rules and lack statistical justification.  Further, in several cases, estimated error rates are unrealistically low, yet are used in courts to shore up testimony that is often based on nothing other than someone’s opinion.<br><br>We propose some minimal statistical criteria for black box studies and describe some of the data that need to be available to plan and implement such studies."
+  },
+  {
+    "id": 28,
+    "first": "",
+    "last": "",
+    "time": "12:30-1:30pm",
+    "title": "Lunch"
+  },
+  {
+    "id": 29,
+    "time": "Chair<br>1:30-3:00pm",
+    "first": "Tony",
+    "last": "Cai",
+    "ins": "University of Pennsylvania"
+  },
+  {
+    "id": 30,
+    "last": "Clyde",
+    "first": "Merlise",
+    "ins": "Duke University",
+    "time": "",
+    "title": "Bridging Spike and Slab Priors and Generalized g-priors",
+    "abstract": "The introduction of Stochastic Search Variable Selection samplers by George and McCulloch in 1993 and 1997 revolutionized the field of Bayesian model selection facilitating methods to explore model spaces with hundreds to millions of variables.  Generalizations of g-priors remain a popular choice from both computational and theoretical  perspectives, however, can exhibit problematic behavior  as shown in Som, Hans and MacEachern, who propose blocking covariates and applying mixtures of g-priors within each block.   When blocks involve only a single predictor, this simplifies to a version of the popular spike and slab priors with a point mass at zero.  However an open problem is how to select blocks in general and how to specify priors within blocks to satisfy model selection desiderata.   We provide  a solution based on data adaptive blocking that allows us to bridge generalized g-priors and independent spike and slab priors. "
+  },
+  {
+    "id": 31,
+    "last": "Liu",
+    "first": "Jun",
+    "ins": "Harvard University",
+    "time": "",
+    "title": "Bootstrap, Hierarchical Bayes, and Neural Networks<br> -- a Generative Multi-purpose Sampler",
+    "abstract": "Many statistical estimation problems can be formulated as solving for an M-estimator, and their uncertainties can be quantified by multiple copies of weighted M-estimators, such as in bootstrap methods. The Bayesian bootstrap differs from the classical bootstrap by employing different weight distributions (Dirichlet versus multinomial). Incidentally, the problem of tuning parameter selection via cross-validation can also be formulated as putting weights onto samples and obtaining different solutions under different sets of weights and different specifications of the tuning parameters. In this talk, we discuss ways of setting up flexible neural networks (a) to receive inputs as different weights and to give out outputs that we desire so as to achieve either uncertainty quantification or tuning parameter selection, and (b) to form nonparametric prior to enable nonparametric Bayes analysis. This is based on the joint work with Minsuk Shin, Shijie Wang,  Zhirui Hu, and Tracy Ke. "
+  },
+  {
+    "id": 32,
+    "first": "",
+    "last": "",
+    "time": "3:00-3:30pm",
+    "title": "Break"
+  },
+  {
+    "id": 33,
+    "time": "Chair<br>3:30-5:00pm",
+    "first": "Zongming",
+    "last": "Ma",
+    "ins": "University of Pennsylvania"
+  },
+  {
+    "id": 34,
+    "last": "Xu",
+    "first": "Xinyi",
+    "ins": "Ohio State University",
+    "time": "",
+    "title": "From Minimax Mean Estimation to Minimax Density Prediction",
+    "abstract": "In a remarkable series of papers beginning in 1956, Charles Stein set the stage for minimax shrinkage estimators of a multivariate normal mean under quadratic loss. Almost 50 years later, parallel results were developed for predictive density estimation of a multivariate normal distribution under Kullback–Leibler loss.  In this talk, I review our journey of exploring the predictive density estimation problem, starting from the developments of new minimax shrinkage predictive density estimators to later extensions to admissible density estimators, normal linear regression estimators and nonparametric regression estimators."
+  },
+  {
+    "id": 35,
+    "last": "Johnstone",
+    "first": "Iain",
+    "ins": "Stanford University",
+    "time": "",
+    "title": "Minimax Bayes predictive density estimation for sparse normal means",
+    "abstract": "Ed George, with colleagues and students, found striking parallels between estimation of a multivariate normal mean under quadratic loss and predictive density estimation under Kullback-Leibler loss.  We review these parallels, and then, in joint work with Gourab Mukherjee, turn to sparse Gaussian models and propose proper Bayes predictive density estimates that achieve asymptotic minimaxity.  A surprise is the existence of a phase transition in the future-to-past variance ratio $r$. For $r < (surd 5 - 1)/4$, the natural discrete prior ceases to be asymptotically optimal, being beaten by a `bi-grid' prior with a central region of reduced grid spacing. "
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Timestamp": "12/2/2021 14:04:52",
+    "First": "Ming",
+    "Last": "Zhang",
+    "Email": "mingz@smu.edu",
+    "Organization": "Southern Methodist University",
+    "Title": "Bayesian Estimation and Testing in Random-Effects Meta-Analysis of Rare Binary Events  allowing for Flexible Group Variability",
+    "Abstract": "Rare binary events data arise frequently in medical research. Due to lack of statistical power in individual studies involving such data, meta-analysis has become an increasingly important tool for combining results from multiple studies. However, traditional meta-analysis methods often report severely biased estimates in such rare-event settings. Moreover, many rely on models assuming a pre-specified direction for variability between control and treatment groups for mathematical convenience, which is often violated in practice. Based on a flexible random-effects model that removes the specific direction, we develop new Bayesian procedures for estimating and testing the treatment effect and inter-study heterogeneity. Our Markov chain Monte Carlo algorithm employs P\\acute{\\text{o}}lya-Gamma augmentation so that all conditionals are known distributions, greatly facilitating computational efficiency. Our simulation shows that in general, the proposed approach reports less biased and stable estimates, compared to existing methods. We further illustrate our approach using two real examples, one using rosiglitazone data and the other using stomach ulcers data.",
+    "Upload your poster": "https://drive.google.com/open?id=1YzkYOpHwIQ9ccbNqaqSF0L9zNzRr1tmz"
+  },
+  {
+    "Timestamp": "12/4/2021 11:30:11",
+    "First": "Yuling",
+    "Last": "Yan",
+    "Email": "yulingy@princeton.edu",
+    "Organization": "Princeton University",
+    "Title": "Inference for Heteroskedastic PCA with Missing Data",
+    "Abstract": "This paper studies how to construct confidence regions for principal component analysis (PCA) in high dimension, a problem that has been vastly under-explored. While computing measures of uncertainty for nonlinear/nonconvex estimators is in general difficult in high dimension, the challenge is further compounded by the prevalent presence of missing data and heteroskedastic noise. We propose a suite of solutions to perform valid inference on the principal subspace based on two estimators: a vanilla SVD-based approach, and a more refined iterative scheme called HeteroPCA (Zhang et al., 2018). We develop non-asymptotic distributional guarantees for both estimators, and demonstrate how these can be invoked to compute both confidence regions for the principal subspace and entrywise confidence intervals for the spiked covariance matrix. Particularly worth highlighting is the inference procedure built on top of HeteroPCA, which is not only valid but also statistically efficient for broader scenarios (e.g., it covers a wider range of missing rates and signal-to-noise ratios). Our solutions are fully data-driven and adaptive to heteroskedastic random noise, without requiring prior knowledge about the noise levels and noise distributions.",
+    "Upload your poster": "https://drive.google.com/open?id=1cRJ8TmYRQVVQfbk2-BWp8K6Fxwfv3s5_"
+  },
+  {
+    "Timestamp": "12/4/2021 13:19:42",
+    "First": "Mengxin",
+    "Last": "Yu",
+    "Email": "mengxiny@princeton.edu",
+    "Organization": "Princeton University",
+    "Title": "Policy Optimization using Semi-parametric Models for Dynamic Pricing",
+    "Abstract": "In this paper, we study the contextual dynamic pricing problem where the market value of a product is linear in its observed features plus some market noise. Products are sold one at a time, and only a binary response indicating success or failure of a sale is observed. Our model setting is similar to Javanmard and Nazerzadeh [2019] except that we expand the demand curve to a semi- parametric model and learn dynamically both parametric and nonparametric components. We propose a dynamic statistical learning and decision making policy that minimizes regret (maximizes revenue) by combining semi-parametric estimation for a generalized linear model with unknown link and online decision making. Under mild conditions, for a market noise c.d.f. F with m-th order derivative (m>= 2), our policy achieves a regret upper bound of O_d(T^{(2m+1)/(4m-1)}), where T is the time horizon and O is the order hiding logarithmic terms and the feature dimension d. The upper bound is further reduced to O(\\sqrt{T}) if F is super smooth. These upper bounds are close \\Omega(\\sqrt{T}), the lower bound where F belongs to a parametric class. We further generalize these results to the case with dynamic dependent product features under the strong mixing condition.",
+    "Upload your poster": "https://drive.google.com/open?id=1UCczWT9cWZXcwfGZdTo_T31J_zpUjEUj"
+  },
+  {
+    "Timestamp": "12/4/2021 14:53:18",
+    "First": "Gen",
+    "Last": "Li",
+    "Email": "lgthu12@gmail.com",
+    "Organization": "Princeton University",
+    "Title": "Breaking the Sample Size Barrier in Model-Based Reinforcement Learning",
+    "Abstract": "We investigate the sample efficiency of reinforcement learning in a $\\gamma$-discounted infinite-horizon Markov decision process (MDP) with state space $\\cS$ and action space $\\cA$, assuming access to a generative model.  Despite a number of prior work tackling this problem, a complete picture of the trade-offs between sample complexity and statistical accuracy is yet to be determined. In particular, prior results suffer from a sample size barrier, in the sense that their claimed statistical guarantees hold only when the sample size exceeds at least $\\frac{|\\cS||\\cA|}{(1-\\gamma)^2}$ (up to some log factor). \n \nThe current paper overcomes this barrier by certifying the minimax optimality of model-based reinforcement learning as soon as the sample size exceeds the order of $\\frac{|\\cS||\\cA|}{1-\\gamma}$ (modulo some log factor). More specifically, a {\\em perturbed} model-based planning algorithm provably finds an $\\varepsilon$-optimal policy with an order of $\\frac{|\\cS||\\cA| }{(1-\\gamma)^3\\varepsilon^2}\\log\\frac{|\\cS||\\cA|}{(1-\\gamma)\\varepsilon}$ samples for any $\\varepsilon \\in (0, \\frac{1}{1-\\gamma}]$. Along the way, we derive improved (instance-dependent) guarantees for model-based policy evaluation. To the best of our knowledge, this work provides the first minimax-optimal guarantee in a generative model that accommodates the entire range of sample sizes (beyond which finding a meaningful policy is information theoretically impossible).",
+    "Upload your poster": "https://drive.google.com/open?id=1GeexRTwk4S8l4yLlWItVLrMOcbs5VxNj"
+  },
+  {
+    "Timestamp": "12/4/2021 22:39:51",
+    "First": "Changxiao",
+    "Last": "Cai",
+    "Email": "changxiao.cai@pennmedicine.upenn.edu",
+    "Organization": "University of Pennsylvania",
+    "Title": "Efficient Estimation and Inference for Nonconvex Tensor Completion",
+    "Abstract": "We study a noisy tensor completion problem of broad practical interest, namely, the reconstruction of a low-rank tensor from highly incomplete and randomly corrupted observations of its entries. Given that existing methods either are computationally expensive or fail to achieve optimal statistical performance, we propose a two-stage nonconvex algorithm---(vanilla) gradient descent following a rough initialization---that achievs both near-optimal computational efficiency (i.e. linear time complexity) and near-optimal statistical accuracy (i.e. minimal sample complexity and optimal estimation accuracy). In addition to estimation, we further characterize the non-asymptotic distribution of the proposed nonconvex estimator down to fine scales, and develop a data-driven inferential procedure to construct optimal entrywise confidence intervals for the unknowns, which fully adapts to unknown noise distributions and noise heteroscedasticity. As a byproduct, the distributional theory justifies the statistical optimality of the nonconvex estimator---its $\\ell_2$ estimation error is un-improvable including the pre-constant. In summary, our results reveals the effectiveness of nonconvex optimization in noisy tensor completion, which enables optimal estimation and uncertainty quantification all at once.",
+    "Upload your poster": "https://drive.google.com/open?id=15kZqe-5A3FMybWLGeVilWbWX9oeT2hZF"
+  },
+  {
+    "Timestamp": "12/5/2021 15:10:33",
+    "First": "Lili",
+    "Last": "Zheng",
+    "Email": "lz67@rice.edu",
+    "Organization": "Rice University",
+    "Title": "Stochastic Gradient Descent in Correlated Settings: A Study on Gaussian Processes",
+    "Abstract": "Stochastic gradient descent (SGD) and its variants have established themselves as the go-to algorithms for large-scale machine learning problems with independent samples due to their generalization performance and intrinsic computational advan- tage. However, the fact that the stochastic gradient is a biased estimator of the full gradient with correlated samples has led to the lack of theoretical understanding of how SGD behaves under correlated settings and hindered its use in such cases. In this paper, we focus on the Gaussian process (GP) and take a step forward towards breaking the barrier by proving minibatch SGD converges to a critical point of the full loss function and recovers model hyperparameters with rate O(1/K) up to a statistical error term depending on the minibatch size. Numerical studies on both simulated and real datasets demonstrate that minibatch SGD has better generalization over state-of-the-art GP methods while reducing the computational burden and opening up a new, previously unexplored, data size regime for GPs.",
+    "Upload your poster": "https://drive.google.com/open?id=1W0k1yZIvnwU7ucb8nOosL-rh3o3BFa9a"
+  },
+  {
+    "Timestamp": "12/5/2021 15:18:26",
+    "First": "Yuchen",
+    "Last": "Zhou",
+    "Email": "yz8479@princeton.edu",
+    "Organization": "Princeton University",
+    "Title": "Inference for Low-rank Tensors -- No Need to Debias",
+    "Abstract": "In this paper, we consider the statistical inference for several low-rank tensor models. Specifically, in the Tucker low-rank tensor PCA or regression model, provided with any estimates achieving some attainable error rate, we develop the data-driven confidence regions for the singular subspace of the parameter tensor based on the asymptotic distribution of an updated estimate by two-iteration alternating minimization. The asymptotic distributions are established under some essential conditions on the signal-to-noise ratio (in PCA model) or sample size (in regression model). If the parameter tensor is further orthogonally decomposable, we develop the methods and non-asymptotic theory for inference on each individual singular vector. For the rank-one tensor PCA model, we establish the asymptotic distribution for general linear forms of principal components and confidence interval for each entry of the parameter tensor. Finally, numerical simulations are presented to corroborate our theoretical discoveries. \n\nIn all these models, we observe that different from many matrix/vector settings in existing work, debiasing is not required to establish the asymptotic distribution of estimates or to make statistical inference on low-rank tensors. In fact, due to the widely observed statistical-computational-gap for low-rank tensor estimation, one usually requires stronger conditions than the statistical (or information-theoretic) limit to ensure the computationally feasible estimation is achievable. Surprisingly, such conditions ``incidentally\" render a feasible low-rank tensor inference without debiasing.",
+    "Upload your poster": "https://drive.google.com/open?id=162-AOLwsZ589pnTzbQg3ghHwDHC9Tdky"
+  },
+  {
+    "Timestamp": "12/5/2021 22:01:11",
+    "First": "Carsten",
+    "Last": "Chong",
+    "Email": "chc2169@columbia.edu",
+    "Organization": "Columbia University",
+    "Title": "Mixed semimartingales: Volatility estimation in the presence of rough noise",
+    "Abstract": "We consider the problem of estimating volatility based on high-frequency data when the observed price process is a continuous Itô semimartingale contaminated by microstructure noise. Assuming that the noise process is compatible across different sampling frequencies, we argue that it typically has a similar local behavior to fractional Brownian motion. For the resulting class of processes, which we call mixed semimartingales, we derive consistent estimators and asymptotic confidence intervals for the roughness parameter of the noise and the integrated price and noise volatilities, in all cases where these quantities are identifiable. Our model can explain key features of recent stock price data, most notably divergence rates in volatility signature plots that vary considerably over time and between assets.",
+    "Upload your poster": "https://drive.google.com/open?id=1MyZSCwRqmZi7lSOUZ09Ag6zWZPipb1X4"
+  },
+  {
+    "Timestamp": "12/6/2021 10:36:46",
+    "First": "Oliver",
+    "Last": "Dukes",
+    "Email": "odukes@wharton.upenn.edu",
+    "Organization": "University of Pennsylvania",
+    "Title": "On Doubly Robust Inference for Double Machine Learning",
+    "Abstract": "Due to concerns about parametric model misspecification, there is interest\nin using machine learning to adjust for confounding when evaluating the\ncausal effect of an exposure on an outcome. Unfortunately, exposure effect\nestimators that rely on machine learning predictions are generally subject to\nso-called plug-in bias, which can render naive p-values and confidence intervals\ninvalid. Progress has been made via proposals like targeted maximum\nlikelihood estimation and more recently double machine learning, which rely\non learning the conditional mean of both the outcome and exposure. Valid inference\ncan then be obtained so long as both predictions converge (sufficiently\nfast) to the truth. Focusing on partially linear regression models, we show that\na specific implementation of the machine learning techniques can yield exposure\neffect estimators that have small bias even when one of the first-stage\npredictions does not converge to the truth. The resulting tests and confidence\nintervals are doubly robust. We also show that the proposed estimators may\nfail to be regular when only one nuisance parameter is consistently estimated;\nnevertheless, we observe in simulation studies that our proposal leads to reduced\nbias and improved confidence interval coverage in moderate samples.",
+    "Upload your poster": "https://drive.google.com/open?id=1C241xAQQSSZw691mk5ARrKPNzyesqPDE"
+  },
+  {
+    "Timestamp": "12/7/2021 15:07:49",
+    "First": "Jeff",
+    "Last": "Cai",
+    "Email": "junhui@wharton.upenn.edu",
+    "Organization": "Universit of Pennsylvania",
+    "Title": "Network Regression and Supervised Centrality Estimation",
+    "Abstract": "The centrality in a network is a popular metric for agents' network positions and is often used in regression models to model the network effect on an outcome variable of interest. In empirical studies, researchers often adopt a two-stage procedure to first estimate the centrality and then infer the network effect using the estimated centrality. Despite its prevalent adoption, this two-stage procedure lacks theoretical backing and can fail in both estimation and inference. We, therefore, propose a unified framework, under which we prove the shortcomings of the two-stage in centrality estimation and the undesirable consequences in the regression. We then propose a novel supervised network centrality estimation (SuperCENT) methodology that simultaneously yields superior estimations of the centrality and the network effect and provides valid and narrower confidence intervals than those from the two-stage. We showcase the superiority of SuperCENT in predicting the currency risk premium based on the global trade network.",
+    "Upload your poster": ""
+  }
+]
