@@ -36,11 +36,12 @@ postdoc = ["Saunak Sen", "Steve Z. Qin", "Erin Conlon", "Haiyan Huang", "Xin Lu"
 work = ["Harvard University", "Tsinghua University", "Stanford University"]
 edu = ["University of Chicago", "Rutgers University", "Peking University"]
 award = [
-    "NSF Career Award", "COPSS Presidents' Award", "ASA Fellow", "IMS Fellow", "ISCB Fellow",
-    "Morningside Gold Medal", "National Academy of Sciences Elected Member",
+    "NSF Career Award", "ASA Fellow", "IMS Fellow", "ISCB Fellow",
+    "Morningside Gold Medal", 
     "Pao-Lu Hsu Lecturer", "Jerome Sacks Award", "Pao-Lu Hsu Award",
     "ICSA Distinguished Achievement Award", "Kuwait Lecture", "Bernoulli Lecture", "IMS Medallion Lecture", 
     "Mitchell Prize", "Terman Fellowship"
+    # "COPSS Presidents' Award", "National Academy of Sciences Elected Member" 
 ]
 
 # Combine and assign categories
